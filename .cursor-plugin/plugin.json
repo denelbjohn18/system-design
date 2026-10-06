@@ -1,0 +1,9 @@
+{
+  "name": "system-design",
+  "version": "0.1.1-alpha.1",
+  "description": "Depth-first system design practice through scenarios, explain-back and spaced recall.",
+  "logo": "assets/icon.png",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "license": "MIT"
+}

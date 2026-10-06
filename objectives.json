@@ -1,0 +1,1156 @@
+{
+  "curriculum_version": "2026-10-06.1",
+  "concepts": {
+    "01.01": {
+      "unit": "01",
+      "label": "What a system is",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "01.02": {
+      "unit": "01",
+      "label": "user goals vs design",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "01.03": {
+      "unit": "01",
+      "label": "browser, server and stored data",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "01.04": {
+      "unit": "01",
+      "label": "tracing one request",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "02.01": {
+      "unit": "02",
+      "label": "HTTP requests/responses",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "02.02": {
+      "unit": "02",
+      "label": "TCP vs UDP",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "02.03": {
+      "unit": "02",
+      "label": "REST, RPC, gRPC and GraphQL as later comparisons",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "03.01": {
+      "unit": "03",
+      "label": "Performance vs scalability",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "03.02": {
+      "unit": "03",
+      "label": "latency vs throughput",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "03.03": {
+      "unit": "03",
+      "label": "simple capacity arithmetic",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "04.01": {
+      "unit": "04",
+      "label": "Domain names and DNS",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "04.02": {
+      "unit": "04",
+      "label": "nearby copies",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "04.03": {
+      "unit": "04",
+      "label": "push and pull CDNs",
+      "required": true,
+      "dimensions": [
+        "correctness",
+        "application"
+      ]
+    },
+    "05.01": {
+      "unit": "05",
+      "label": "Load balancer vs reverse proxy",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "05.02": {
+      "unit": "05",
+      "label": "algorithms",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "05.03": {
+      "unit": "05",
+      "label": "L4/L7",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "05.04": {
+      "unit": "05",
+      "label": "horizontal scale",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "05.05": {
+      "unit": "05",
+      "label": "state",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "05.06": {
+      "unit": "05",
+      "label": "microservices and discovery",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "06.01": {
+      "unit": "06",
+      "label": "Tables and relationships",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "06.02": {
+      "unit": "06",
+      "label": "SQL vs NoSQL",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "06.03": {
+      "unit": "06",
+      "label": "key-value, document, wide-column and graph stores",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "06.04": {
+      "unit": "06",
+      "label": "queries, indexes, SQL tuning",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "06.05": {
+      "unit": "06",
+      "label": "federation and denormalization",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "07.01": {
+      "unit": "07",
+      "label": "Availability vs consistency introduction",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "07.02": {
+      "unit": "07",
+      "label": "failover",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "07.03": {
+      "unit": "07",
+      "label": "active-active/passive",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "07.04": {
+      "unit": "07",
+      "label": "primary-replica and multi-primary",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "07.05": {
+      "unit": "07",
+      "label": "lag",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "07.06": {
+      "unit": "07",
+      "label": "availability numbers in series/parallel",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "08.01": {
+      "unit": "08",
+      "label": "Partition keys",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "08.02": {
+      "unit": "08",
+      "label": "skew",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "08.03": {
+      "unit": "08",
+      "label": "resharding",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "08.04": {
+      "unit": "08",
+      "label": "cross-partition access",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "08.05": {
+      "unit": "08",
+      "label": "federation compared with sharding",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "09.01": {
+      "unit": "09",
+      "label": "Client, CDN, server, database and application caches",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "09.02": {
+      "unit": "09",
+      "label": "cache-aside, write-through, write-behind, refresh-ahead",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "09.03": {
+      "unit": "09",
+      "label": "freshness, invalidation, misses, stampedes",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "10.01": {
+      "unit": "10",
+      "label": "Event-driven and scheduled jobs",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "10.02": {
+      "unit": "10",
+      "label": "returning results",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "10.03": {
+      "unit": "10",
+      "label": "task/message queues",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "10.04": {
+      "unit": "10",
+      "label": "backpressure",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "10.05": {
+      "unit": "10",
+      "label": "acknowledgments, redelivery and idempotent operations",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "11.01": {
+      "unit": "11",
+      "label": "Weak, eventual and strong consistency",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "11.02": {
+      "unit": "11",
+      "label": "histories",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "11.03": {
+      "unit": "11",
+      "label": "network partitions",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "11.04": {
+      "unit": "11",
+      "label": "precise CAP availability/consistency definitions",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.01": {
+      "unit": "12",
+      "label": "Rate limiting",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.02": {
+      "unit": "12",
+      "label": "retries and retry storms",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.03": {
+      "unit": "12",
+      "label": "circuit breaker",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.04": {
+      "unit": "12",
+      "label": "bulkhead",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.05": {
+      "unit": "12",
+      "label": "health endpoints",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.06": {
+      "unit": "12",
+      "label": "leader election",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.07": {
+      "unit": "12",
+      "label": "compensating actions",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "12.08": {
+      "unit": "12",
+      "label": "queue-based load leveling",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "13.01": {
+      "unit": "13",
+      "label": "Health, availability, performance, security and usage monitoring",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "13.02": {
+      "unit": "13",
+      "label": "instrumentation, visualizations and alerts",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "13.03": {
+      "unit": "13",
+      "label": "busy DB/frontend, chatty IO, extra fetching, bad instantiation, monolithic persistence, no cache, noisy neighbor and synchronous IO",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.01": {
+      "unit": "14",
+      "label": "Async request-reply",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.02": {
+      "unit": "14",
+      "label": "claim check",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.03": {
+      "unit": "14",
+      "label": "choreography",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.04": {
+      "unit": "14",
+      "label": "competing consumers",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.05": {
+      "unit": "14",
+      "label": "pipes and filters",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.06": {
+      "unit": "14",
+      "label": "priority queues",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.07": {
+      "unit": "14",
+      "label": "pub/sub",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.08": {
+      "unit": "14",
+      "label": "queue-based load leveling",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.09": {
+      "unit": "14",
+      "label": "scheduler-agent-supervisor",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "14.10": {
+      "unit": "14",
+      "label": "sequential convoy",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.01": {
+      "unit": "15",
+      "label": "Cache-aside",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.02": {
+      "unit": "15",
+      "label": "CQRS",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.03": {
+      "unit": "15",
+      "label": "event sourcing",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.04": {
+      "unit": "15",
+      "label": "index table",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.05": {
+      "unit": "15",
+      "label": "materialized view",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.06": {
+      "unit": "15",
+      "label": "sharding",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.07": {
+      "unit": "15",
+      "label": "static content hosting",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.08": {
+      "unit": "15",
+      "label": "valet key",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.09": {
+      "unit": "15",
+      "label": "anti-corruption layer",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.10": {
+      "unit": "15",
+      "label": "ambassador",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.11": {
+      "unit": "15",
+      "label": "backends for frontends",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.12": {
+      "unit": "15",
+      "label": "resource consolidation",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.13": {
+      "unit": "15",
+      "label": "external config",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.14": {
+      "unit": "15",
+      "label": "gateway aggregation/offloading/routing",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.15": {
+      "unit": "15",
+      "label": "leader election",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.16": {
+      "unit": "15",
+      "label": "pipes/filters",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.17": {
+      "unit": "15",
+      "label": "sidecar",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "15.18": {
+      "unit": "15",
+      "label": "strangler fig",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.01": {
+      "unit": "16",
+      "label": "Deployment stamps",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.02": {
+      "unit": "16",
+      "label": "geodes",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.03": {
+      "unit": "16",
+      "label": "health monitoring",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.04": {
+      "unit": "16",
+      "label": "throttling",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.05": {
+      "unit": "16",
+      "label": "bulkhead",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.06": {
+      "unit": "16",
+      "label": "circuit breaker",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.07": {
+      "unit": "16",
+      "label": "compensating transaction",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.08": {
+      "unit": "16",
+      "label": "leader election",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.09": {
+      "unit": "16",
+      "label": "retry",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.10": {
+      "unit": "16",
+      "label": "scheduler-agent-supervisor",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.11": {
+      "unit": "16",
+      "label": "federated identity",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.12": {
+      "unit": "16",
+      "label": "gatekeeper",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "16.13": {
+      "unit": "16",
+      "label": "valet key",
+      "required": false,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.01": {
+      "unit": "17",
+      "label": "Requirements",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.02": {
+      "unit": "17",
+      "label": "workload estimates",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.03": {
+      "unit": "17",
+      "label": "request/data flows",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.04": {
+      "unit": "17",
+      "label": "correctness invariants",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.05": {
+      "unit": "17",
+      "label": "bottlenecks",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.06": {
+      "unit": "17",
+      "label": "failure recovery",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.07": {
+      "unit": "17",
+      "label": "observability and security",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    },
+    "17.08": {
+      "unit": "17",
+      "label": "compare justified alternatives",
+      "required": true,
+      "dimensions": [
+        "mechanism",
+        "tradeoff",
+        "failure",
+        "transfer"
+      ]
+    }
+  }
+}
